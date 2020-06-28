@@ -14,7 +14,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
+    
+    override func viewDidAppear(_ animated: Bool) {
+        if !UserDefaults.standard.bool(forKey: "hasAlreadyLaunched") {
+            performSegue(withIdentifier: "firstLaunch", sender: nil)
+        }
+    }
+    
+    @IBAction func cancel(_ unwindSegue: UIStoryboardSegue) {}
 
 }
-
