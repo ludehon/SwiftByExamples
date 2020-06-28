@@ -13,6 +13,7 @@
 		DFB26DC824A8BCE50027D209 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB26DC624A8BCE50027D209 /* Main.storyboard */; };
 		DFB26DCA24A8BCE60027D209 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFB26DC924A8BCE60027D209 /* Assets.xcassets */; };
 		DFB26DCD24A8BCE60027D209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFB26DCB24A8BCE60027D209 /* LaunchScreen.storyboard */; };
+		DFB26DD524A8C05C0027D209 /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFB26DD424A8C05C0027D209 /* FirstLaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DFB26DC924A8BCE60027D209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFB26DCC24A8BCE60027D209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DFB26DCE24A8BCE60027D209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFB26DD424A8C05C0027D209 /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				DFB26DC924A8BCE60027D209 /* Assets.xcassets */,
 				DFB26DCB24A8BCE60027D209 /* LaunchScreen.storyboard */,
 				DFB26DCE24A8BCE60027D209 /* Info.plist */,
+				DFB26DD424A8C05C0027D209 /* FirstLaunchViewController.swift */,
 			);
 			path = firstLaunchDemo;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFB26DD524A8C05C0027D209 /* FirstLaunchViewController.swift in Sources */,
 				DFB26DC524A8BCE50027D209 /* ViewController.swift in Sources */,
 				DFB26DC124A8BCE50027D209 /* AppDelegate.swift in Sources */,
 				DFB26DC324A8BCE50027D209 /* SceneDelegate.swift in Sources */,
@@ -285,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RVWWQDJG4H;
 				INFOPLIST_FILE = firstLaunchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -302,6 +307,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RVWWQDJG4H;
 				INFOPLIST_FILE = firstLaunchDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
