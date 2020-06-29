@@ -10,10 +10,14 @@ import UIKit
 
 class FirstLaunchViewController: UIViewController {
 
+    @IBOutlet weak var agreeButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.isModalInPresentation = true
+        agreeButton.backgroundColor = UIColor.init(red: 0, green: 122/255, blue: 1, alpha: 1)
+        agreeButton.layer.cornerRadius = 15
+        agreeButton.tintColor = UIColor.white
     }
     
     

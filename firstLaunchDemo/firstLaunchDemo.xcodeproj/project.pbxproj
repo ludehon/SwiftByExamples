@@ -58,14 +58,14 @@
 		DFB26DBF24A8BCE50027D209 /* firstLaunchDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DFB26DC424A8BCE50027D209 /* ViewController.swift */,
+				DFB26DD424A8C05C0027D209 /* FirstLaunchViewController.swift */,
+				DFB26DC624A8BCE50027D209 /* Main.storyboard */,
 				DFB26DC024A8BCE50027D209 /* AppDelegate.swift */,
 				DFB26DC224A8BCE50027D209 /* SceneDelegate.swift */,
-				DFB26DC424A8BCE50027D209 /* ViewController.swift */,
-				DFB26DC624A8BCE50027D209 /* Main.storyboard */,
 				DFB26DC924A8BCE60027D209 /* Assets.xcassets */,
 				DFB26DCB24A8BCE60027D209 /* LaunchScreen.storyboard */,
 				DFB26DCE24A8BCE60027D209 /* Info.plist */,
-				DFB26DD424A8C05C0027D209 /* FirstLaunchViewController.swift */,
 			);
 			path = firstLaunchDemo;
 			sourceTree = "<group>";

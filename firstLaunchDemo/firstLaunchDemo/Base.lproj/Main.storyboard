@@ -47,13 +47,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First Launch VC" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DQE-BC-jf9">
-                                <rect key="frame" x="0.0" y="30" width="414" height="30"/>
+                                <rect key="frame" x="20" y="20" width="374" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IOG-Qc-HOG">
-                                <rect key="frame" x="0.0" y="742" width="414" height="36"/>
+                                <rect key="frame" x="30" y="738" width="354" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="jzY-0s-IoB"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <state key="normal" title="Agree"/>
                                 <connections>
@@ -64,20 +67,23 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="IOG-Qc-HOG" firstAttribute="leading" secondItem="9tR-e8-fnt" secondAttribute="leading" id="5jz-e5-drW"/>
-                            <constraint firstItem="9tR-e8-fnt" firstAttribute="bottom" secondItem="IOG-Qc-HOG" secondAttribute="bottom" constant="30" id="My4-wx-qLq"/>
-                            <constraint firstItem="DQE-BC-jf9" firstAttribute="top" secondItem="9tR-e8-fnt" secondAttribute="top" constant="30" id="UgZ-07-wAy"/>
-                            <constraint firstItem="DQE-BC-jf9" firstAttribute="leading" secondItem="9tR-e8-fnt" secondAttribute="leading" id="bsN-yZ-Dro"/>
-                            <constraint firstItem="9tR-e8-fnt" firstAttribute="trailing" secondItem="IOG-Qc-HOG" secondAttribute="trailing" id="cGp-ne-qAb"/>
-                            <constraint firstItem="DQE-BC-jf9" firstAttribute="trailing" secondItem="9tR-e8-fnt" secondAttribute="trailing" id="ztv-8J-lzR"/>
+                            <constraint firstItem="9tR-e8-fnt" firstAttribute="trailing" secondItem="IOG-Qc-HOG" secondAttribute="trailing" constant="30" id="CGN-0C-CdN"/>
+                            <constraint firstItem="IOG-Qc-HOG" firstAttribute="leading" secondItem="9tR-e8-fnt" secondAttribute="leading" constant="30" id="GHG-TX-TzY"/>
+                            <constraint firstItem="DQE-BC-jf9" firstAttribute="leading" secondItem="9tR-e8-fnt" secondAttribute="leading" constant="20" id="RXN-KN-x6w"/>
+                            <constraint firstItem="DQE-BC-jf9" firstAttribute="top" secondItem="9tR-e8-fnt" secondAttribute="top" constant="20" id="ZUf-kR-Vvk"/>
+                            <constraint firstItem="9tR-e8-fnt" firstAttribute="bottom" secondItem="IOG-Qc-HOG" secondAttribute="bottom" constant="20" id="dxV-dq-5cI"/>
+                            <constraint firstItem="9tR-e8-fnt" firstAttribute="trailing" secondItem="DQE-BC-jf9" secondAttribute="trailing" constant="20" id="qw3-UE-hW9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="9tR-e8-fnt"/>
                     </view>
+                    <connections>
+                        <outlet property="agreeButton" destination="IOG-Qc-HOG" id="mTW-Zb-w5A"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bex-fe-Gh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="GE6-Ch-Vxp" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="919" y="138"/>
+            <point key="canvasLocation" x="918.84057971014499" y="137.94642857142856"/>
         </scene>
     </scenes>
 </document>
